@@ -12,18 +12,22 @@
   background-color: #ffffff;
 }
 .form {
+    position: relative;
     background: #fff;
   }
   .form .forms{
       display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px 10px;
+    gap: 10 30px;
     grid-template-areas: 
     'first second'
     'third fourth'
     'fifth fifth'
     'sixth sixth'
     'btn btn';
+  }
+  input{
+      
   }
   .form .forms .first{
     grid-area: first;
