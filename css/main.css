@@ -1,7 +1,3 @@
-.container{
-    display: inline-block;
-    width: 100%;
-}
 .container {
     display: inline-block;
     width: 1140px;
@@ -56,7 +52,6 @@
  .form .forms button{
     grid-area: btn;
  }
-
   .form label {
     display: none;
   }
@@ -66,7 +61,6 @@
   textarea {
     padding: 1em;
   }
-  
   button {
     background-color: #223bf5;
     color: #fff;
@@ -78,17 +72,6 @@
     padding: 10px 15px;
     text-align: center;
     margin-left: 100px;
-  }
-  button:hover, button:focus {
-    background: gold;
-    outline: 0;
-  }
-  
-  .contain {
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em;
   }
  .form-row label{
      display: none;
