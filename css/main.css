@@ -1,23 +1,31 @@
 .container {
-    display: inline-block;
-    width: 1140px;
-    margin: 80px 0;
-    margin-left: calc(50% - 570px);
-        margin-right: calc(50% - 570px);
+    background-color:#d2e5fd;
+    width: 800px;
+    height: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60x;
 }
 .form {
+    background-color: #fdfeff;
+    width: 600px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px;
     display: grid;
-    gap: 30px;
+    gap: 10px;
   justify-content: center;
   background-color: #ffffff;
 }
 .form {
     background: #fff;
+    padding: 50px;
   }
   .form .forms{
       display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10 30px;
+    gap: 0px 14px;
     grid-template-areas: 
     'first second'
     'third fourth'
@@ -26,7 +34,8 @@
     'btn btn';
   }
   input{
-      
+      border-radius: 7px;
+      border: none;
   }
   .form .forms .first{
     grid-area: first;
@@ -59,10 +68,16 @@
     display: none;
   }
   
-  button,
-  input,
   textarea {
+    border-radius: 7px;
+    border: none;
     padding: 1em;
+  }
+  h3{
+    color: #323ca8;
+    font-size: 35px;
+    font-weight: normal;
+    text-transform: capitalize;
   }
   button {
     background-color: #223bf5;
